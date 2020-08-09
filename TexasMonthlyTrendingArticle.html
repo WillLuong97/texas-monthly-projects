@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <style>
+    /* li.card a {text-decoration: none; color: #f75a38;} */
+  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Trending Article Lookup</title>
+  <link rel="stylesheet" href="styleApi.css">
+
+</head>
+
+<body>
+  <h1>Texas Monthly: Trending Articles for Email</h1>
+  <hr>
+  <p>
+    Trending in <input type="number" id="hours" value="1"> day(s)</input>
+    <br>
+  </p>
+  <hr>
+
+  <div id="title-card">
+    <div id = "Preview"><h2>Preview</h2></div>
+    <div id = "source-code"><h2>HTML Source Code</h2></div>
+  </div>
+  <div id="root">
+    <div id="orderedList">
+      <div id="list"></div>
+      <div id="source"></div>
+    </div>
+  </div>
+  <div id="HOURS_CONTENT">
+    <script src = "scripts.js"></script>
+  </div>
+
+</body>
+</html>
